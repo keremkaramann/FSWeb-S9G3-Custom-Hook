@@ -120,7 +120,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -136,7 +136,7 @@ table {
 
 html {
   font-size: 62.5%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
 }
 
@@ -165,6 +165,7 @@ img {
   font-family: sans-serif;
   text-align: center;
   width: 100%;
+  transition: 0.5s;
 }
 
 .navbar {
@@ -195,7 +196,7 @@ img {
   height: 18px;
   left: 0;
   position: absolute;
-  transition: 0.2s;
+  transition: 0.4s;
   width: 20px;
 }
 
@@ -229,8 +230,8 @@ img {
 .coin__title {
   display: block;
   margin-left: 8px;
-    min-width: 160px;
-text-align: left;
+  min-width: 160px;
+  text-align: left;
 }
 
 .coin__symbol {
@@ -245,9 +246,10 @@ text-align: left;
 .dark-mode {
   color: #fff;
   background-color: #313843;
+  transition: 0.5s;
 }
 
 .dark-mode .navbar {
-  background-color: #1F2022;
+  background-color: #1f2022;
   border: none;
 }
